@@ -1,1 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>All Kitchen Equipments | Commercial Kitchen Equipment</title>
+
+<meta name="description" content="All Kitchen Equipments - Commercial Pizza Oven, Waffle Machine, Sandwich Griller, Deep Fryer, Momos Setup, Shawarma Machine and more.">
+<meta name="keywords" content="commercial kitchen equipment, pizza oven, waffle machine, sandwich griller, deep fryer, momos machine, shawarma machine, Hyderabad">
+<meta name="theme-color" content="#050505">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:#050505;
+  color:#fff;
+  overflow-x:hidden;
+}
+
+:root{
+  --gold:#f5bd45;
+  --gold2:#ffd86a;
+  --dark:#050505;
+  --card:#101010;
+  --muted:#a7a7a7;
+  --border:rgba(245,189,69,.25);
+}
+
+/* ================= HEADER ================= */
+
+header{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:1000;
+  background:rgba(5,5,5,.88);
+  backdrop-filter:blur(15px);
+  border-bottom:1px solid rgba(245,189,69,.15);
+}
+
+.navbar{
+  max-width:1250px;
+  margin:auto;
+  height:78px;
+  padding:0 25px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.logo{
+  font-size:21px;
+  font-weight:900;
+  letter-spacing:.5px;
+}
+
+.logo span{
+  color:var(--gold);
+}
+
+.nav-links{
+  display:flex;
+  gap:30px;
+  align-items:center;
+}
+
+.nav-links a{
+  color:#fff;
+  text-decoration:none;
+  font-size:13px;
+  font-weight:700;
+  transition:.3s;
+}
+
+.nav-links a:hover{
+  color:var(--gold);
+}
+
+.nav-whatsapp{
+  background:linear-gradient(135deg,#f9cf61,#c99024);
+  color:#111!important;
+  padding:13px 20px;
+  border-radius:10px;
+}
+
+/* ================= HERO ================= */
+
+.hero{
+  min-height:100vh;
+  padding:150px 25px 90px;
+  position:relative;
+  overflow:hidden;
+}
+
+.hero:before{
+  content:"";
+  position:absolute;
+  width:650px;
+  height:650px;
+  background:rgba(245,189,69,.08);
+  filter:blur(120px);
+  border-radius:50%;
+  right:-200px;
+  top:100px;
+}
+
+.hero-inner{
+  max-width:1250px;
+  margin:auto;
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  align-items:center;
+  gap:70px;
+}
+
+.badge{
+  display:inline-block;
+  border:1px solid var(--border);
+  padding:9px 14px;
+  border-radius:30px;
+  color:var(--gold);
+  font-size:11px;
+  letter-spacing:2px;
+  font-weight:bold;
+  margin-bottom:25px;
+}
+
+.hero h1{
+  font-size:clamp(45px,6vw,82px);
+  line-height:.94;
+  letter-spacing:-4px;
+  margin-bottom:25px;
+}
+
+.hero h1 span{
+  color:var(--gold);
+}
+
+.hero p{
+  max-width:600px;
+  color:#aaa;
+  font-size:18px;
+  line-height:1.7;
+  margin-bottom:35px;
+}
+
+.hero-buttons{
+  display:flex;
+  gap:15px;
+  flex-wrap:wrap;
+}
+
+.btn{
+  text-decoration:none;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  padding:15px 24px;
+  border-radius:10px;
+  font-weight:800;
+  font-size:14px;
+  transition:.3s;
+}
+
+.btn-gold{
+  background:linear-gradient(135deg,#ffd86a,#d99b25);
+  color:#111;
+}
+
+.btn-dark{
+  border:1px solid #555;
+  color:#fff;
+}
+
+.btn:hover{
+  transform:translateY(-3px);
+}
+
+.hero-image{
+  position:relative;
+}
+
+.hero-image img{
+  width:100%;
+  max-height:570px;
+  object-fit:cover;
+  border-radius:28px;
+  border:1px solid var(--border);
+  box-shadow:0 30px 100px rgba(0,0,0,.8);
+}
+
+/* ================= SECTIONS ================= */
+
+section{
+  padding:100px 25px;
+}
+
+.container{
+  max-width:1250px;
+  margin:auto;
+}
+
+.section-head{
+  text-align:center;
+  margin-bottom:55px;
+}
+
+.eyebrow{
+  color:var(--gold);
+  font-size:11px;
+  letter-spacing:4px;
+  font-weight:900;
+  margin-bottom:14px;
+}
+
+.section-head h2{
+  font-size:clamp(35px,5vw,60px);
+  letter-spacing:-2px;
+  margin-bottom:15px;
+}
+
+.section-head p{
+  color:#999;
+  max-width:650px;
+  margin:auto;
+  line-height:1.7;
+}
+
+/* ================= PRODUCTS ================= */
+
+.products{
+  background:#080808;
+}
+
+.product-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:25px;
+}
+
+.product{
+  background:linear-gradient(145deg,#141414,#090909);
+  border:1px solid rgba(245,189,69,.16);
+  border-radius:20px;
+  overflow:hidden;
+ 
